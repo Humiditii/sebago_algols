@@ -19,15 +19,14 @@ class StringAlgols {
          const Vowels = ['A', 'E', 'I', 'O', 'U']
          let store = new Array();
          store = string.toUpperCase().split('');
-        const a = []
-        const b = []
+        let a = [];
+        let b = [];
         for (const i of store) {
             for (const j of Vowels) {
                 if( i == j){
-                    a.push(i)
-                }else{
-                    null
+                    a = [...i];
                 }
+                return null;
             }
         }
         
